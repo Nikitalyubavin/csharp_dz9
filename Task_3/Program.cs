@@ -11,7 +11,7 @@ int number2 = UserInput("Введите неотрицательное цело�
 int count = 1;
 int result = AkkermanFunction(number1, number2);
 if (result == -1) Console.WriteLine("Превышен лимит вызовов рекурсии.");
-else Console.WriteLine($"M = {number1}, N = {number2} -> A({number1}, {number2}) = {AkkermanFunction(number1, number2)}");
+else Console.WriteLine($"M = {number1}, N = {number2} -> A({number1}, {number2}) = {result}");
 
 
 
